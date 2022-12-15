@@ -1,5 +1,5 @@
-###Find Element
----
+Antes y después de métodos de Selenium (Actualización de la librería)
+---------------------------------------------------------------------
 
 .find_element_by_class_name(
 .find_element(By.CLASS_NAME,
