@@ -11,7 +11,7 @@ driver_path = r'C:\Users\chromedriver.exe'
 driver = webdriver.Chrome(service=Service(driver_path))
 
 # Navigator
-driver.get('https://weather.com/weather/today/l/c71832b54454644e6c9d1dee74b801e368e1bee82cd6368acc47945d415a4469')
+driver.get('https://www.accuweather.com/es/world-weather')
 
 
 
