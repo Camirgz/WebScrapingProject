@@ -1,6 +1,5 @@
 # Get cities temperature
 import Config
-from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 
 # Berlin
@@ -27,6 +26,7 @@ londrestemp = Config.driver.find_element(By.XPATH,"/html/body/div[1]/div[4]/div[
 madrid = Config.driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div[1]/div[1]/div[1]/div/a[11]/span[1]").text
 madridtemp = Config.driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div[1]/div[1]/div[1]/div/a[11]/span[2]").text
 
+# Muestra de Información
 print(berlin, berlintemp)
 print(buenosaires, buenosairestemp)
 print(cdmx, cdmxtemp)
